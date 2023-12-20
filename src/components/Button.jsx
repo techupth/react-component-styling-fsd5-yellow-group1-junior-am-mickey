@@ -1,3 +1,6 @@
 // Start coding here
+function Button(props) {
+  return <button className={props.buttonStyle}>{props.buttonText}</button>;
+}
 
-function Button() {}
+export default Button;

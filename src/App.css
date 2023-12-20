@@ -39,3 +39,53 @@
 .read-the-docs {
   color: #888;
 }
+
+.primary-button {
+  background-color: rgba(7, 78, 232, 1);
+  border: none;
+  border-radius: 4px;
+  width: 170px;
+  height: 50px;
+  color: white;
+}
+
+.secondary-button {
+  background-color: rgba(7, 164, 232, 1);
+  border: none;
+  border-radius: 4px;
+  width: 170px;
+  height: 50px;
+  color: white;
+}
+
+.component-style {
+  width: 650px;
+  height: 76px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 10px;
+}
+
+.error-alert {
+  background-color: rgba(249, 200, 200, 1);
+}
+
+.warning-alert {
+  background-color: rgba(249, 217, 200, 1);
+}
+
+.info-alert {
+  background-color: rgba(249, 235, 200, 1);
+}
+
+.success-alert {
+  background-color: rgba(206, 247, 205, 1);
+}
