@@ -1,10 +1,12 @@
 import "./App.css";
+import Button from "./components/Button.jsx";
 
 function App() {
   return (
     <div className="App">
       <div className="button-components-section">
-        {/* Render ตัว Button 2 แบบ */}
+        <Button type="primary" text="Primary" />
+        <Button type="secondary" text="Secondary" />
       </div>
       <hr />
       <div className="alert-components-section">
